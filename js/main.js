@@ -1,13 +1,14 @@
 function IsNumber (evt) {
-    let charCode = evt.keyCode
+    var charCode = evt.keyCode;
+    alert(charCode);
     if ((charCode >= 48 && charCode <= 49) || (charCode >= 96 && charCode <= 97) || (charCode == 8))
         return true;
     return false;
 }    
 
 function Convert () {
-    let BinaryInput = document.getElementById("BinaryInput").value;
-    let DecimalOutput = 0;
+    var BinaryInput = document.getElementById("BinaryInput").value;
+    var DecimalOutput = 0;
 
     if (BinaryInput != "") {
         for(i = 0; BinaryInput != 0; i++){
