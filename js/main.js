@@ -1,6 +1,5 @@
 function IsNumber (evt) {
     var charCode = evt.keyCode;
-    alert(charCode);
     if ((charCode >= 48 && charCode <= 49) || (charCode >= 96 && charCode <= 97) || (charCode == 8))
         return true;
     return false;
