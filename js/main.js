@@ -1,5 +1,4 @@
 function IsNumber (evt) {
-    console.log(evt)
     let charCode = (evt.which) ? evt.which : event.keyCode
     if ((charCode >= 48 && charCode <= 49) || (charCode >= 96 && charCode <= 97) || (charCode == 8))
         return true;
