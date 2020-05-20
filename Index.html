@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bin2Dec</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/png" href="Images/Icon.png">
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-box">
+        <h1 class="title-text">BINARY TO DECIMAL</h1>
+        <h6 class="subtitle-text">SIMPLE AND EASY</h6>
+        <form>
+            <div class="col">
+                <div class="form-margin">
+                    <div class="row transparent-input-cover">
+                        <div class="col col-padding">
+                            <input type="text" id="BinaryInput" autocomplete="off" class="transparent-input" onkeypress="return IsNumber(event)" placeholder="Binary"/>
+                        </div>
+                        <div class="col-md-auto reset-button">
+                            <div class="pointer-svg" onclick="ResetAll()">
+                                <svg class="bi bi-arrow-repeat" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="#b9babe" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M2.854 7.146a.5.5 0 00-.708 0l-2 2a.5.5 0 10.708.708L2.5 8.207l1.646 1.647a.5.5 0 00.708-.708l-2-2zm13-1a.5.5 0 00-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 00-.708.708l2 2a.5.5 0 00.708 0l2-2a.5.5 0 000-.708z" clip-rule="evenodd"/>
+                                    <path fill-rule="evenodd" d="M8 3a4.995 4.995 0 00-4.192 2.273.5.5 0 01-.837-.546A6 6 0 0114 8a.5.5 0 01-1.001 0 5 5 0 00-5-5zM2.5 7.5A.5.5 0 013 8a5 5 0 009.192 2.727.5.5 0 11.837.546A6 6 0 012 8a.5.5 0 01.501-.5z" clip-rule="evenodd"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-margin">
+                    <div class="row transparent-input-cover">
+                        <div class="col col-padding">
+                            <input type="text" id="DecimalOutput" class="transparent-input" disabled placeholder="Decimal"/>
+                        </div>
+                        <div class="col-md-auto reset-button">
+                            <div class="pointer-svg" onclick="CopyInfo()">
+                                <svg class="bi bi-files" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="#b9babe" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M3 2h8a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V4a1 1 0 00-1-1H3z" clip-rule="evenodd"/>
+                                    <path d="M5 0h8a2 2 0 012 2v10a2 2 0 01-2 2v-1a1 1 0 001-1V2a1 1 0 00-1-1H5a1 1 0 00-1 1H3a2 2 0 012-2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-margin">
+                    <button type="button" onclick="Convert()" class="transparent-button">CONVERT</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
