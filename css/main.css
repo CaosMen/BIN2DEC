@@ -45,7 +45,7 @@ html, body {
 }
 
 .transparent-input-cover {
-    border: solid 0.1vh #b9babe;
+    border: solid 0.2vh #b9babe;
     border-radius: 1vh;
     -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.2);
     box-shadow: 0 2px 10px 1px rgba(0,0,0,0.2);
@@ -66,6 +66,12 @@ html, body {
 ::-moz-placeholder { color: #808080; }
 :-ms-input-placeholder { color: #808080; }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
 .reset-button {
     align-self: center;
 }
@@ -76,7 +82,7 @@ html, body {
 
 .transparent-button {
     background: transparent;
-    border: solid 0.1vh #b9babe;
+    border: solid 0.2vh #b9babe;
     border-radius: 1vh;
     width: 10vh;
     height: 5vh;

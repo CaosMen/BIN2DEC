@@ -23,11 +23,11 @@
                 <span class="rwd-line">DECIMAL</span>
             </h1>
             <h6 class="subtitle-text">SIMPLE AND EASY</h6>
-            <form class="pl-3 pr-3">
+            <form class="pl-3 pr-3" onsubmit="Convert(event)">
                 <div class="form-margin">
                     <div class="d-flex flex-nowrap transparent-input-cover">
                         <div class="col p-0">
-                            <input type="tel" id="BinaryInput" class="transparent-input" onkeydown="return IsNumber(event)" placeholder="Binary"/>
+                            <input type="numeric" pattern="[0-1]*" id="BinaryInput" class="transparent-input" placeholder="Binary"/>
                         </div>
                         <div class="col-auto pl-0 pr-2 reset-button">
                             <div class="pointer-svg" onclick="ResetAll()">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="form-margin">
-                    <button type="button" onclick="Convert()" class="transparent-button">CONVERT</button>
+                    <button type="submit" class="transparent-button">CONVERT</button>
                 </div>
             </form>
         </div>

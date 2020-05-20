@@ -1,11 +1,6 @@
-function IsNumber (evt) {
-    var charCode = evt.keyCode;
-    if ((charCode >= 48 && charCode <= 49) || (charCode >= 96 && charCode <= 97) || (charCode == 8))
-        return true;
-    return false;
-}    
+function Convert (event) {
+    event.preventDefault();
 
-function Convert () {
     var BinaryInput = document.getElementById("BinaryInput").value;
     var DecimalOutput = 0;
 
