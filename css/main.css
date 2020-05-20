@@ -17,6 +17,16 @@ html, body {
     text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
+.rwd-line {
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .rwd-line {
+        display: inline; 
+    }
+}
+
 .subtitle-text {
     color: #b9babe;
     font-family: 'Jost', sans-serif;
