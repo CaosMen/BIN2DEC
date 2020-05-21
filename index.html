@@ -19,11 +19,12 @@
         <div class="main-box">
             <h1 class="title-text">BINARY TO DECIMAL</h1>
             <h6 class="subtitle-text">SIMPLE AND EASY</h6>
-            <form class="pl-3 pr-3" onsubmit="Convert(event)">
-                <div class="form-margin">
+            <form class="pl-3 pr-3">
+                <div class="text-margin">
+                    <p id="validation" class="validation"></p>
                     <div class="d-flex flex-nowrap transparent-input-cover">
                         <div class="col p-0">
-                            <input type="numeric" pattern="[0-1]*" id="BinaryInput" class="transparent-input" placeholder="Binary"/>
+                            <input id="BinaryInput" type="numeric" pattern="[0-1]*" class="transparent-input" placeholder="Binary"/>
                         </div>
                         <div class="col-auto pl-0 pr-2 reset-button">
                             <div class="pointer-svg" onclick="ResetAll()">
@@ -52,7 +53,7 @@
                     </div>
                 </div>
                 <div class="form-margin">
-                    <button type="submit" class="transparent-button">CONVERT</button>
+                    <button type="button" onclick="Convert()" class="transparent-button">CONVERT</button>
                 </div>
             </form>
         </div>
