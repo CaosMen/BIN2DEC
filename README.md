@@ -1,17 +1,35 @@
-# BIN2DEC
+<h1 align="center">
+    <img alt="" title="" src="preview/logo.png">
+</h1>
 
-Binary-to-Decimal number converter
+<h2 align="center">Binary-to-Decimal number converter</h2>
 
-## Getting Started
+## 🔧 Resources
+* Convert a binary number to a decimal number.
 
-The use of the application is very simple, just enter the binary number and when clicking on "CONVERT" it will be converted to decimal.
+## ❓ How to use?
 
-## Authors
+### Installation
 
-* **Bruno Lemos** - [Profile](https://github.com/CaosMen)
+```bash
+$ cd BIN2DEC
+$ open ./index.html
+```
 
-See also the list of [contributors](https://github.com/CaosMen/BIN2DEC/contributors) who participated in this project.
+## 💻 Web View
 
-## License
+<h1 align="center">
+    <img alt="" title="" src="preview/web.png">
+</h1>
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## 📱 Mobile View
+
+<h1 align="center">
+    <img alt="" title="" src="preview/mobile.png">
+</h1>
+
+<br>
+
+<p align="center">
+Created by Bruno Lemos.
+</p>
